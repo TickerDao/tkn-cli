@@ -53,5 +53,5 @@ export async function runGenerate(filepath: string) {
   const outputPath = path.join(dir, outputFilename);
 
   fs.writeFileSync(outputPath, JSON.stringify(tree.dump()));
-  console.log(`Merkle tree written to: ${outputPath}`);
+  console.log(`Merkle tree written to file: ${outputPath}`);
 }
