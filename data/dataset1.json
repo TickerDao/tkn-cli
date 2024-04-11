@@ -41,15 +41,24 @@
         "treeIndex": 13
       },
       {
-        "value": ["USDC&website", "https://www.centre.io/usdc"],
+        "value": [
+          "USDC&website",
+          "https://www.centre.io/usdc"
+        ],
         "treeIndex": 8
       },
       {
-        "value": ["USDC&github", "https://github.com/centrehq/centre-tokens"],
+        "value": [
+          "USDC&github",
+          "https://github.com/centrehq/centre-tokens"
+        ],
         "treeIndex": 14
       },
       {
-        "value": ["USDC&name", "USD Coin"],
+        "value": [
+          "USDC&name",
+          "USD Coin"
+        ],
         "treeIndex": 9
       },
       {
@@ -60,18 +69,30 @@
         "treeIndex": 11
       },
       {
-        "value": ["DAI&website", "https://makerdao.com/en/"],
+        "value": [
+          "DAI&website",
+          "https://makerdao.com/en/"
+        ],
         "treeIndex": 7
       },
       {
-        "value": ["DAI&github", "https://github.com/makerdao"],
+        "value": [
+          "DAI&github",
+          "https://github.com/makerdao"
+        ],
         "treeIndex": 12
       },
       {
-        "value": ["DAI&name", "Dai"],
+        "value": [
+          "DAI&name",
+          "Dai"
+        ],
         "treeIndex": 10
       }
     ],
-    "leafEncoding": ["string", "string"]
+    "leafEncoding": [
+      "string",
+      "string"
+    ]
   }
 }
