@@ -3,55 +3,58 @@ import fs from "fs";
 import path from "path";
 
 interface Dataset {
+  [key: string]: {
+    [key: string]: string;
+  };
+}
+
+interface FlattenedDataset {
   [key: string]: string;
 }
 
 export async function runGenerate(filepath: string) {
   console.log(`-------------------------`);
-  console.log(`Reading dataset from path: ${filepath}`);
-  // receive path from function
+  console.log(`Reading dataset from path:`);
+  console.log(`${filepath}`);
+  // receive file path from function
 
-  // Use the provided filepath to read the dataset
-  const datasetFilePath = path.resolve(filepath);
-  const datasetContent = fs.readFileSync(datasetFilePath, "utf8");
-  const dataset: Dataset = JSON.parse(datasetContent);
-  const datasetArray = Object.entries(dataset);
+  // Read and parse the dataset
+  const dataFilePath: string = path.resolve(filepath);
+  const dataFileContent: string = fs.readFileSync(dataFilePath, "utf8");
+  const dataset: Dataset = JSON.parse(dataFileContent).dataset;
 
-  console.table(dataset);
-
-  console.log(`-------------------------`);
-  // Create a Merkle tree from the dataset
-  const tree = StandardMerkleTree.of(datasetArray, ["string", "string"]);
-
-  console.log("Merkle Root:", tree.root);
-
-  console.log(`-------------------------`);
-  console.log(`Merkle Tree`);
-  console.log(tree.render());
-
-  console.log(`-------------------------`);
-  console.log(`Merkle Proofs of all data points`);
-  for (const [i, v] of tree.entries()) {
-    console.log("value:", v);
-    console.log("proof:", tree.getProof(i));
+  // Combine the ticker symbol and fields into one single key for each field
+  const flattenedDataset: FlattenedDataset = {};
+  for (const [key, value] of Object.entries(dataset)) {
+    for (const [nestedKey, nestedValue] of Object.entries(value)) {
+      const combinedKey: string = `${key}&${nestedKey}`;
+      flattenedDataset[combinedKey] = nestedValue;
+    }
   }
 
   console.log(`-------------------------`);
-  console.log(`Verifying proof of data point #3`);
-  const proof = tree.getProof(2);
-  console.log(`Result:`);
-  console.log(
-    tree.verify(
-      ["USDC&github", "https://github.com/centrehq/centre-tokens"],
-      proof
-    )
-  );
 
+  // Convert the flattened dataset to an array
+  const flattenedDatasetArray: [string, string][] =
+    Object.entries(flattenedDataset);
+
+  // Create a Merkle tree from the dataset
+  const tree = StandardMerkleTree.of(flattenedDatasetArray, [
+    "string",
+    "string",
+  ]);
+
+  // update data file with tree info
+  const updatedFile = {
+    dataset: { ...dataset },
+    tree: tree.dump(),
+  };
+  fs.writeFileSync(dataFilePath, JSON.stringify(updatedFile, null, 2));
+
+  console.log(`Merkle tree updated`);
   console.log(`-------------------------`);
-  const { dir, name, ext } = path.parse(filepath);
-  const outputFilename = `${name}-tree${ext}`;
-  const outputPath = path.join(dir, outputFilename);
 
-  fs.writeFileSync(outputPath, JSON.stringify(tree.dump()));
-  console.log(`Merkle tree written to file: ${outputPath}`);
+  console.log("Generated Merkle Root:");
+  console.log(tree.root);
+  console.log(`-------------------------`);
 }

@@ -1,6 +1,77 @@
 {
-  "USDC&token_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-  "USDC&website": "https://www.centre.io/usdc",
-  "USDC&github": "https://github.com/centrehq/centre-tokens",
-  "USDC&name": "USD Coin"
+  "dataset": {
+    "USDC": {
+      "token_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "website": "https://www.centre.io/usdc",
+      "github": "https://github.com/centrehq/centre-tokens",
+      "name": "USD Coin"
+    },
+    "DAI": {
+      "token_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "website": "https://makerdao.com/en/",
+      "github": "https://github.com/makerdao",
+      "name": "Dai"
+    }
+  },
+  "tree": {
+    "format": "standard-v1",
+    "tree": [
+      "0x00912eb6bc80ceaf643e95ff1558f5dd6d93eeabf0913f5e65d181970ad57bf5",
+      "0xb161ae2de085c10557cb240c91aa9b3b2f67ca6a7125765129c7d14c0d3c857c",
+      "0x0c54ed1cb403df8cf5e84ae4f15adcc7f07bf339bdafee93d6ba2123d98ff533",
+      "0x2c553ab8b511576a918444520d388ed332e2b6a45623f7bfe0d9414e175d6f48",
+      "0xabe984d7fc19239d22d2c8fdc5c471cd136361a56bfe3442f4f7359b9a3d12d5",
+      "0x9497da5763b5bb6e2217f86d66b9144ca456b9edfe77731734d3bd51ec3538a5",
+      "0x75bacb48b56c86c913a5ebda676a37d192f7e028315d35036cb6f3cd65285186",
+      "0xff39dd6651774981f6bdb41da8236a9820e54da9683647fcce6154aa047c44e1",
+      "0xf8a54f6f77ab41ed946c244aed635be0a9415c8cdfab0dddd0ce01e22804a8fe",
+      "0xb0fb3c9972cd938c2f97849217dd5563ae49ac0b2e294d9073ce86537359bb17",
+      "0xa18190c984b0ccf7e5252a28f2ed1fd3058a2b49f0fdb7e34068c20d08d2302f",
+      "0x97cdcccca334c9bb79295bcf7d6808d9ed9d6c322e4e21822d1a8819f5da2178",
+      "0x5ff320318061647b35b5d9c41f877937128fae5b7935092e40020b1bf086f57a",
+      "0x3f02b3b3ccd238d28d20aeb70f99366c456d757d069cc1aff980c369abd0f9de",
+      "0x33d2790def57199569706f2aaf9509f0e997a524045e26cbf8821a95e40c9836"
+    ],
+    "values": [
+      {
+        "value": [
+          "USDC&token_address",
+          "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        ],
+        "treeIndex": 13
+      },
+      {
+        "value": ["USDC&website", "https://www.centre.io/usdc"],
+        "treeIndex": 8
+      },
+      {
+        "value": ["USDC&github", "https://github.com/centrehq/centre-tokens"],
+        "treeIndex": 14
+      },
+      {
+        "value": ["USDC&name", "USD Coin"],
+        "treeIndex": 9
+      },
+      {
+        "value": [
+          "DAI&token_address",
+          "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        ],
+        "treeIndex": 11
+      },
+      {
+        "value": ["DAI&website", "https://makerdao.com/en/"],
+        "treeIndex": 7
+      },
+      {
+        "value": ["DAI&github", "https://github.com/makerdao"],
+        "treeIndex": 12
+      },
+      {
+        "value": ["DAI&name", "Dai"],
+        "treeIndex": 10
+      }
+    ],
+    "leafEncoding": ["string", "string"]
+  }
 }

@@ -1,0 +1,602 @@
+{
+  "dataset": {
+    "DAI": {
+      "token_address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "website": "https://makerdao.com/en/",
+      "github": "https://github.com/makerdao",
+      "name": "Dai"
+    },
+    "ETH": {
+      "token_address": "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+      "website": "https://ethereum.org/",
+      "github": "https://github.com/ethereum",
+      "name": "Ethereum"
+    },
+    "BTC": {
+      "token_address": "N/A",
+      "website": "https://bitcoin.org/",
+      "github": "https://github.com/bitcoin/bitcoin",
+      "name": "Bitcoin"
+    },
+    "LINK": {
+      "token_address": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "website": "https://chain.link/",
+      "github": "https://github.com/smartcontractkit/chainlink",
+      "name": "ChainLink"
+    },
+    "UNI": {
+      "token_address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "website": "https://uniswap.org/",
+      "github": "https://github.com/Uniswap",
+      "name": "Uniswap"
+    },
+    "USDC": {
+      "token_address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "website": "https://www.centre.io/usdc",
+      "github": "https://github.com/centrehq/centre-tokens",
+      "name": "USD Coin"
+    },
+    "AAVE": {
+      "token_address": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+      "website": "https://aave.com/",
+      "github": "https://github.com/aave",
+      "name": "Aave"
+    },
+    "COMP": {
+      "token_address": "0xc00e94Cb662C3520282E6f5717214004A7f26888",
+      "website": "https://compound.finance/",
+      "github": "https://github.com/compound-finance",
+      "name": "Compound"
+    },
+    "SNX": {
+      "token_address": "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F",
+      "website": "https://www.synthetix.io/",
+      "github": "https://github.com/Synthetixio",
+      "name": "Synthetix"
+    },
+    "YFI": {
+      "token_address": "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e",
+      "website": "https://yearn.finance/",
+      "github": "https://github.com/yearn",
+      "name": "yearn.finance"
+    },
+    "MKR": {
+      "token_address": "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2",
+      "website": "https://makerdao.com/",
+      "github": "https://github.com/makerdao",
+      "name": "Maker"
+    },
+    "SUSHI": {
+      "token_address": "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2",
+      "website": "https://sushi.com/",
+      "github": "https://github.com/sushiswap",
+      "name": "SushiSwap"
+    },
+    "ZRX": {
+      "token_address": "0xE41d2489571d322189246DaFA5ebDe1F4699F498",
+      "website": "https://0x.org/",
+      "github": "https://github.com/0xProject",
+      "name": "0x"
+    },
+    "BAT": {
+      "token_address": "0x0D8775F648430679A709E98d2b0Cb6250d2887EF",
+      "website": "https://basicattentiontoken.org/",
+      "github": "https://github.com/brave-intl/basic-attention-token-crowdsale",
+      "name": "Basic Attention Token"
+    }
+  },
+  "tree": {
+    "format": "standard-v1",
+    "tree": [
+      "0xb2673d8188304c4fb9e3e328572dd3e8dba80741c0b18b49a4f7ca1720d956bf",
+      "0xc69c375a9cadfdd39ca71f261fa82d1f526c6128f0e300d06268677d6bc223df",
+      "0x725b560f87c25530f19b932b3323d034518b236979b4bf44fd757d06817a1a30",
+      "0xed7580f0b0042f87bd6456f8f4066a3d85b10eabc8b20303556fd8ee9252ff9a",
+      "0x952bbe836cdae4af530cb88af0808a385b15d4e9e27d007bcbf5e96b97772e92",
+      "0xf37c1668bc0b151757567e93b3332fb7a2adab3e7f443f0765189e404f82655d",
+      "0x18b46e0e56edc03ad3074f3f1158b4b30c6b65cc678d975a3bd27b4521891718",
+      "0x6dcfb935a950ffe01993eca126d93444bc24684457f47c7b280fe93eb3b27045",
+      "0x4e163b4e853a25b4eda715638177f6fc375cb43808deb5cb98b6de87dbe126d9",
+      "0xe1f5f9b1a6b8eed285a6ff62931e04d3f705b6453d6991da82a04142b73a6024",
+      "0x3a9617c5c8b8fefbbd456c26126b47f20afcfae1c06ae1d19e93373faca725e6",
+      "0xad61b8433baa8bd7ec56ef7465fd1fd0d088e4abdffa8cb99618cae5f337e370",
+      "0xde939148b9a004011893e3f62114f16284a2be1843a65269fb627ee27eff1de3",
+      "0x19ab6aaf81ef6c98b00ea7b53a6b6d94c40d2c2fc3ac65af0822a7f8395bf15d",
+      "0x99f61ba255fa4ea535c61ff9c5d9f51c83e917dd4b3091548313eb8d0d080ecb",
+      "0x396f9df80bd406d90ec094707fc5e6e8d0ff3bb23bf37049df6de2b109978bdd",
+      "0xcff3ef07d2a124fe1eaef1be05764f505b1bccb963ad5f2e58a4bb10cd246b94",
+      "0x47e0571b47c781ed52230ed9064c212c5ef42b8aaff8d4f8f5677569efb0fdfe",
+      "0xcfe5bc1c623d9c01d98180012a54adbf9873b351fad9fe5a17aaba00c8a89e1e",
+      "0x90358348367dbcf0ecca0d99256b7582f42a2affbaec4b83a6ed570c90c4da67",
+      "0xe8ddd8cdf07a9a26881805d29daefbe8bc02b82a5275812ee7aba568bad77910",
+      "0x9fa4c0b4c973f7b5bc15c36a3f655f649dd5abd0814ff11f04ca015688798476",
+      "0x75178a5506848487f58d6febdd97ad431cf88ef198b808d5b2220732fae481b8",
+      "0xe19a02e2bf5387adf3340713f2b52d66c7660051d625049a3a5dc76d6838200b",
+      "0xcc628ab868555e6e1840844d8deb401fbe22bdd5b3f02504c24f6f076ecbcc37",
+      "0xc34e93f1cbf47212e1808fec9d6a7f6fcb8d5af9ee92c0298df749909f9bf088",
+      "0xee47c617645eea80dc93f1c5c8bcd6b92dd9e640c61ba532a77319f74a53aeb4",
+      "0x883a1cdcb9e43b0ea184f34d8cba1d9b5930432eb20a2016c086a5ca91873918",
+      "0x46a6200de8f5e61de72007283fad138e7e27575676a8d84a91968dc0acfdc23e",
+      "0x96f1339880b3a0cc51b6daafc5ed5b69320615f424fa5962ac90f72cd36a66e7",
+      "0x058cd7103d8fd191e12f2f910286cd9d6816a1d07f8223cd2ed610e2459bb377",
+      "0x8a2f256448430e68005ec17879cd6becc23dc7edfc55fd2a744bd1017cab259d",
+      "0x9f42dfa938f5480cc285b970a6fefe9fc9d74f202c528c59233320126cfd52c3",
+      "0x1c37d88cd2de9f18b0a6433c95092afd7b5986febb2f3a81d98c6a025fb7b45a",
+      "0xc31f313960d2a54871e0ac7d77883a7db22cdbf018dca5b7901c9e1b322124c5",
+      "0x8cef605326de517f6c9675756eae3116a65d3d8aed25d6a1845f32a39943765c",
+      "0xc85af36991dea1342129f5c09757267add45755a25f6e27396376ef9b4ad0ef5",
+      "0xa1f63aaa0c53e1cab150a0c934a9e10ab34af376b68272810ea982ef8047635b",
+      "0x262c7c9830ebf455c21da078bdf57bab9dca2d991427f9e17a18a6842ab4c119",
+      "0x40ae8c13e409de08074557a39b3c15e286c3ea5c1b1812b9f18f80644f33cb20",
+      "0x9c8f38072d6e33cd4d60ab1a939d8c809237049996eefc1453598ec068d10c0d",
+      "0xd204d6facd3a0401f8108d98019bbcdd4e3fab5b695d207e657116e16c4336a2",
+      "0x28a8840a6b2823c679e33a90c876e8a4fc5bd385082505f327858df0cf82037e",
+      "0xf214cec4143812076eb36c2a5f33c99580266ff36e408c830ee6b5b86b75cdf3",
+      "0xe413db989df590567db6300e0c148eff770d640408f15f9a88d65424c5902c82",
+      "0x25f272e4be28796d73739deced963e77231551882206b5eae5fdd532943918a7",
+      "0x0aebeeb6e1dbd362f7417fa6231c2866e796dc11b4e413042009d844d027ecdd",
+      "0x8ab59a146322337074ebe40546ba7a0493c0005cf38f4d876173d48b730a5081",
+      "0x7f40a931cb5e72aa5d6d292a6f2ff7ec5e827c76fa72848111824734ed57d6bf",
+      "0x20a971cb54ea1259585d79f4db1fa6bf8465a78d1200d7fc7d1ea92f612edfe1",
+      "0x488df6deba65711f7dfae14bd070a191250075420727739edf6a46a132ce9109",
+      "0xed3dce7c1c1041b3b6b1ae59ef5d87c259dd972b80337b44f0d44f1099966997",
+      "0xcb448ed280ce8564f598dc9f1cbd81a76d473619cfd05678ef266d17f9add0ef",
+      "0xbaa6347f6bde35b3d4b4ed2bff4ad62b53d4153b2ec2727f39e7ff9a7fa2dc48",
+      "0x0acc8ddca2052ad25522bc55be3a4d180ca85fcbea217bb3838184c4175bd6bf",
+      "0xfff9112fdbb311b610da129755c0d5a64e6e551c4c3dfcac26d2b4a68d3f35aa",
+      "0xff39dd6651774981f6bdb41da8236a9820e54da9683647fcce6154aa047c44e1",
+      "0xfb8d16d4860286c7fde5e6b3aaa3235df8f3cb309663011269efc66d82081c8e",
+      "0xf8aece6bda262ce5604243bd3fc143e344022297ca24b572e1540d518916aa7d",
+      "0xf8a54f6f77ab41ed946c244aed635be0a9415c8cdfab0dddd0ce01e22804a8fe",
+      "0xf43dd1e6268b19ef7365539c545bd467ff531474da53a5a0956f964957af2122",
+      "0xf13787ecaee129931ed1cf3b9c36fdc3fae29ace576ea635facc76535552d5f3",
+      "0xde9e737035c9db38f37a7df50997e70559e15805c601031f4d6b66350a9cb8af",
+      "0xdb479da37069081342edbc4d388f2f818e225e1ae5fdd680467029ce87d0682d",
+      "0xd6a93eac8619e01e09d7fc1dd148d17c8a961d59503d7b313221310bd0b86a3b",
+      "0xd1d9b2d33f914a647e9d0356e7ee687f68e0284bd1d2a70c7a21c22e43cb9c71",
+      "0xce22c5f297b08d1da8cc2db4e5a867e019f3162ae0d6b908a04d36fe3383cb29",
+      "0xcaf795f5599f6caa337b650e6365532efb50d359bab5f878f793a1f74428ddc7",
+      "0xc09ce37883c3e97e6b944fc7467ccd1f4465f99fe8d684b486a3a66f2cf9f676",
+      "0xbaa993c6bda05fdf2beb19666ef9873b0d5c065272fd3782034f25d69f97907a",
+      "0xb8a895cbda6d4bf9e36b1d6348eded33c48b6fdf7ffb7670274cca7427a45983",
+      "0xb7e3b942c3adac0ad96e43f629493efcace7662d5f550d4f1452b77efbbe27ef",
+      "0xb5a5a700cd41a99d345ffbafd43e67341835718d2a89dff2b42aca0a692b144e",
+      "0xb0fb3c9972cd938c2f97849217dd5563ae49ac0b2e294d9073ce86537359bb17",
+      "0xae7dfc8a23e5b9057031dcb7450be669fb0f2765846bdc9dfbe589c39af02988",
+      "0xac1ee1250433ca120aabc5625c287b029d3b41ffad51fc4b26c623042cd6a966",
+      "0xaada1ca27c09fbfb8d8ea20e3b15cf9b019d9d0867ba8a6efaf2b58666db3e7d",
+      "0xa2f57e5f657775727f0f68fd49679d06d330088c7399b87e29c788e309649fe0",
+      "0xa18190c984b0ccf7e5252a28f2ed1fd3058a2b49f0fdb7e34068c20d08d2302f",
+      "0x9dffa01ba84531074c11440448268940151cfe194bcd11718a7f6f01a4b12027",
+      "0x9dbece31af3d0cfc1e369ba1abc6148aa156f43e936210f2e0b4203ed43bbb3a",
+      "0x97cdcccca334c9bb79295bcf7d6808d9ed9d6c322e4e21822d1a8819f5da2178",
+      "0x971240eaf976783ccf526adb16926f6e69177b5435923ef1285a9ad436d30ad0",
+      "0x93b9bb69936f56b11eaeb2e33e4222fcf2381320c5bab1fbeb1463b8b087a913",
+      "0x8b5f7b8e51b6c66c88ebd499e18fa762298facd9d17ffb1c5e09bacba3a99393",
+      "0x896e07f3d35a7ecd5d43f56072213073968b2041e58fb672ddbe5e6666634d72",
+      "0x81442c79a158b089fb24b9ccb5c29a86a517abab0ab768bb5f63f3e91fd2c4e2",
+      "0x79acbcc445be41112e0550e8e51286c05c3f52eafabafa62d3b8a88867b6d416",
+      "0x6d4289fd20fcbc88c725884a7a9c054681e5e6ed9f9bdb8e62a710c0ddab90ee",
+      "0x604774086eb89712b0862eeb29170e16a70f330594f9cfe4df7a13f0c7efda9b",
+      "0x5ff320318061647b35b5d9c41f877937128fae5b7935092e40020b1bf086f57a",
+      "0x5602666d22e55f17172aac4b391a1770168bccdbbb85fa2a5382ba6294b14e7f",
+      "0x4e007b0b750f1b095c65d8e366dbff0fedd3ca7442d1e6dc3916f33c080b57c0",
+      "0x49b2be517bc0afde641f3605d497b731dc8aeb24b776323a44bb61158836c7a6",
+      "0x4688eecbd75e4623bcf64fd692fb7f2ab4031d00ec71bbe58928c901d7c99acc",
+      "0x4540e08b20333e70cceb9165a3f1ed2e5fe26e13948ee346dfddf94ae396cb58",
+      "0x401baedcaa68b1bdf5ea4fd93d348f78040b3986940ccd0fdf5344ad84313280",
+      "0x3f02b3b3ccd238d28d20aeb70f99366c456d757d069cc1aff980c369abd0f9de",
+      "0x3e31c1eca0bfdbfea7e84246f0cf9f7cbcb8aa3f6f2be13038f747b7084b4bb3",
+      "0x3e08d8fe6bd69dd4e2c066e7ee332adaec0473068a5a1d1c5a470997949bf904",
+      "0x34fce5179a8b169742b7f665dae43cd043fbac8397adf81f123ba75b1cf471d9",
+      "0x33d2790def57199569706f2aaf9509f0e997a524045e26cbf8821a95e40c9836",
+      "0x2bf72a2856739c10cdc0887635cfff2d50ec8f395f00771a2ee25aa3fe800f43",
+      "0x2b1a7320474035b728e811513242dfc45f26bc405b641b0610e26c3ada9c5cf8",
+      "0x28484af679e82b9f0274303ee7c2ca6bb743b1c77e7681a7742a309f70d9f4a2",
+      "0x22ce6f62ec80fd9336891069454e00d822cb1049f5bfa5f30f460d2cd9b6c2a8",
+      "0x1e30a6158e8fe9025de8d53d4282424870dc763d975756796ffb832589cc1ca5",
+      "0x141de9073b95b2366e04a967764c6f49e3419bce9142304c53da39d3290339b1",
+      "0x06edc0e28ff674899885eda815066f4570529e5b87917e0d1969c602d2a3f330",
+      "0x066b40f67519323e6b4c490deb7b0606541747a4455233c2a8d3ac2bb6bd2028",
+      "0x060164b73c24b5ab231dc4b74f843ea5eaeee15964c14fddad909fb0ae5bbdf7"
+    ],
+    "values": [
+      {
+        "value": [
+          "DAI&token_address",
+          "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+        ],
+        "treeIndex": 81
+      },
+      {
+        "value": [
+          "DAI&website",
+          "https://makerdao.com/en/"
+        ],
+        "treeIndex": 56
+      },
+      {
+        "value": [
+          "DAI&github",
+          "https://github.com/makerdao"
+        ],
+        "treeIndex": 90
+      },
+      {
+        "value": [
+          "DAI&name",
+          "Dai"
+        ],
+        "treeIndex": 78
+      },
+      {
+        "value": [
+          "ETH&token_address",
+          "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+        ],
+        "treeIndex": 95
+      },
+      {
+        "value": [
+          "ETH&website",
+          "https://ethereum.org/"
+        ],
+        "treeIndex": 109
+      },
+      {
+        "value": [
+          "ETH&github",
+          "https://github.com/ethereum"
+        ],
+        "treeIndex": 108
+      },
+      {
+        "value": [
+          "ETH&name",
+          "Ethereum"
+        ],
+        "treeIndex": 62
+      },
+      {
+        "value": [
+          "BTC&token_address",
+          "N/A"
+        ],
+        "treeIndex": 105
+      },
+      {
+        "value": [
+          "BTC&website",
+          "https://bitcoin.org/"
+        ],
+        "treeIndex": 100
+      },
+      {
+        "value": [
+          "BTC&github",
+          "https://github.com/bitcoin/bitcoin"
+        ],
+        "treeIndex": 83
+      },
+      {
+        "value": [
+          "BTC&name",
+          "Bitcoin"
+        ],
+        "treeIndex": 76
+      },
+      {
+        "value": [
+          "LINK&token_address",
+          "0x514910771AF9Ca656af840dff83E8264EcF986CA"
+        ],
+        "treeIndex": 58
+      },
+      {
+        "value": [
+          "LINK&website",
+          "https://chain.link/"
+        ],
+        "treeIndex": 85
+      },
+      {
+        "value": [
+          "LINK&github",
+          "https://github.com/smartcontractkit/chainlink"
+        ],
+        "treeIndex": 103
+      },
+      {
+        "value": [
+          "LINK&name",
+          "ChainLink"
+        ],
+        "treeIndex": 106
+      },
+      {
+        "value": [
+          "UNI&token_address",
+          "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+        ],
+        "treeIndex": 71
+      },
+      {
+        "value": [
+          "UNI&website",
+          "https://uniswap.org/"
+        ],
+        "treeIndex": 92
+      },
+      {
+        "value": [
+          "UNI&github",
+          "https://github.com/Uniswap"
+        ],
+        "treeIndex": 77
+      },
+      {
+        "value": [
+          "UNI&name",
+          "Uniswap"
+        ],
+        "treeIndex": 57
+      },
+      {
+        "value": [
+          "USDC&token_address",
+          "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        ],
+        "treeIndex": 97
+      },
+      {
+        "value": [
+          "USDC&website",
+          "https://www.centre.io/usdc"
+        ],
+        "treeIndex": 59
+      },
+      {
+        "value": [
+          "USDC&github",
+          "https://github.com/centrehq/centre-tokens"
+        ],
+        "treeIndex": 101
+      },
+      {
+        "value": [
+          "USDC&name",
+          "USD Coin"
+        ],
+        "treeIndex": 73
+      },
+      {
+        "value": [
+          "AAVE&token_address",
+          "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+        ],
+        "treeIndex": 84
+      },
+      {
+        "value": [
+          "AAVE&website",
+          "https://aave.com/"
+        ],
+        "treeIndex": 74
+      },
+      {
+        "value": [
+          "AAVE&github",
+          "https://github.com/aave"
+        ],
+        "treeIndex": 79
+      },
+      {
+        "value": [
+          "AAVE&name",
+          "Aave"
+        ],
+        "treeIndex": 89
+      },
+      {
+        "value": [
+          "COMP&token_address",
+          "0xc00e94Cb662C3520282E6f5717214004A7f26888"
+        ],
+        "treeIndex": 96
+      },
+      {
+        "value": [
+          "COMP&website",
+          "https://compound.finance/"
+        ],
+        "treeIndex": 66
+      },
+      {
+        "value": [
+          "COMP&github",
+          "https://github.com/compound-finance"
+        ],
+        "treeIndex": 102
+      },
+      {
+        "value": [
+          "COMP&name",
+          "Compound"
+        ],
+        "treeIndex": 82
+      },
+      {
+        "value": [
+          "SNX&token_address",
+          "0xC011a73ee8576Fb46F5E1c5751cA3B9Fe0af2a6F"
+        ],
+        "treeIndex": 64
+      },
+      {
+        "value": [
+          "SNX&website",
+          "https://www.synthetix.io/"
+        ],
+        "treeIndex": 72
+      },
+      {
+        "value": [
+          "SNX&github",
+          "https://github.com/Synthetixio"
+        ],
+        "treeIndex": 86
+      },
+      {
+        "value": [
+          "SNX&name",
+          "Synthetix"
+        ],
+        "treeIndex": 104
+      },
+      {
+        "value": [
+          "YFI&token_address",
+          "0x0bc529c00C6401aEF6D220BE8C6Ea1667F6Ad93e"
+        ],
+        "treeIndex": 80
+      },
+      {
+        "value": [
+          "YFI&website",
+          "https://yearn.finance/"
+        ],
+        "treeIndex": 60
+      },
+      {
+        "value": [
+          "YFI&github",
+          "https://github.com/yearn"
+        ],
+        "treeIndex": 87
+      },
+      {
+        "value": [
+          "YFI&name",
+          "yearn.finance"
+        ],
+        "treeIndex": 69
+      },
+      {
+        "value": [
+          "MKR&token_address",
+          "0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2"
+        ],
+        "treeIndex": 55
+      },
+      {
+        "value": [
+          "MKR&website",
+          "https://makerdao.com/"
+        ],
+        "treeIndex": 88
+      },
+      {
+        "value": [
+          "MKR&github",
+          "https://github.com/makerdao"
+        ],
+        "treeIndex": 68
+      },
+      {
+        "value": [
+          "MKR&name",
+          "Maker"
+        ],
+        "treeIndex": 63
+      },
+      {
+        "value": [
+          "SUSHI&token_address",
+          "0x6B3595068778DD592e39A122f4f5a5cF09C90fE2"
+        ],
+        "treeIndex": 61
+      },
+      {
+        "value": [
+          "SUSHI&website",
+          "https://sushi.com/"
+        ],
+        "treeIndex": 67
+      },
+      {
+        "value": [
+          "SUSHI&github",
+          "https://github.com/sushiswap"
+        ],
+        "treeIndex": 91
+      },
+      {
+        "value": [
+          "SUSHI&name",
+          "SushiSwap"
+        ],
+        "treeIndex": 99
+      },
+      {
+        "value": [
+          "ZRX&token_address",
+          "0xE41d2489571d322189246DaFA5ebDe1F4699F498"
+        ],
+        "treeIndex": 107
+      },
+      {
+        "value": [
+          "ZRX&website",
+          "https://0x.org/"
+        ],
+        "treeIndex": 75
+      },
+      {
+        "value": [
+          "ZRX&github",
+          "https://github.com/0xProject"
+        ],
+        "treeIndex": 93
+      },
+      {
+        "value": [
+          "ZRX&name",
+          "0x"
+        ],
+        "treeIndex": 98
+      },
+      {
+        "value": [
+          "BAT&token_address",
+          "0x0D8775F648430679A709E98d2b0Cb6250d2887EF"
+        ],
+        "treeIndex": 110
+      },
+      {
+        "value": [
+          "BAT&website",
+          "https://basicattentiontoken.org/"
+        ],
+        "treeIndex": 70
+      },
+      {
+        "value": [
+          "BAT&github",
+          "https://github.com/brave-intl/basic-attention-token-crowdsale"
+        ],
+        "treeIndex": 65
+      },
+      {
+        "value": [
+          "BAT&name",
+          "Basic Attention Token"
+        ],
+        "treeIndex": 94
+      }
+    ],
+    "leafEncoding": [
+      "string",
+      "string"
+    ]
+  }
+}
