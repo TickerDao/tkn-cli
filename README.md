@@ -4,6 +4,8 @@ Essential TKN dataset and onchain operations.
 
 ## Usage
 
+[![asciicast](https://asciinema.org/a/BFWkrVuMOfq8QC1UCMiN5uTQZ.svg)](https://asciinema.org/a/BFWkrVuMOfq8QC1UCMiN5uTQZ)
+
 ### Installation and Setup
 
 ```bash

@@ -27,7 +27,6 @@ program
     "Location of the dataset",
     "./data/dataset1.json"
   )
-  .option("-i, --ipfs <content hash>", "Content Hash of the IPFS file", "...")
   .action((options) => {
     runGenerate(options.file);
   })
@@ -35,8 +34,7 @@ program
     "after",
     `
   Examples:
-    $ tkn gen -f ./data/dataset1.json
-    $ tkn generate -i qm...e`
+    $ tkn gen -f ./data/dataset1.json`
   );
 
 // upload: upload local file to ipfs and return content hash of the file
