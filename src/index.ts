@@ -8,6 +8,7 @@ import * as figlet from "figlet";
 import { runGenerate } from "./generate/merkle";
 import { runUploadIPFS } from "./upload/ipfs";
 import { runDownloadIPFS } from "./download/ipfs";
+import { runFetch } from "./fetch/fetch";
 
 const program = new Command();
 
@@ -80,6 +81,26 @@ program
     `
   Examples:
     $ tkn download -i bafkreigr7bx6bxvz7uef5ieq553epgav4yuevpxhxa7fyxdbk2emi3rrtu -f ~/Desktop/dataset1.json`
+  );
+
+// fetch: fetch the values and proofs for fields
+program
+  .command("fetch")
+  .description("fetch the values and proofs for fields")
+  .option("-t, --token <token symbol>", "Token Symbol", "")
+  .option("-d, --data-field <data field>", "Data Field", "")
+  .option("-f, --file <path>", "path of the dataset", "")
+  .option("-s, --save <path>", "path to save field values and proofs", "")
+  .action((options) => {
+    runFetch(options.token, options.dataField, options.file, options.save);
+  })
+  .addHelpText(
+    "after",
+    `
+    Examples:
+      $ tkn fetch --token DAI --field token_address --file ./data/dataset1.json
+      $ tkn fetch --token DAI --file ./data/dataset1.json
+      $ tkn fetch --token DAI --field token_address --file ./data/dataset1.json --save ./data/proofs/dai-proof1.json`
   );
 
 program.parse(process.argv);

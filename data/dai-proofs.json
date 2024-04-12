@@ -1,0 +1,37 @@
+{
+  "root": "0x00912eb6bc80ceaf643e95ff1558f5dd6d93eeabf0913f5e65d181970ad57bf5",
+  "fields": {
+    "DAI&token_address": {
+      "value": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "proof": [
+        "0x5ff320318061647b35b5d9c41f877937128fae5b7935092e40020b1bf086f57a",
+        "0x75bacb48b56c86c913a5ebda676a37d192f7e028315d35036cb6f3cd65285186",
+        "0xb161ae2de085c10557cb240c91aa9b3b2f67ca6a7125765129c7d14c0d3c857c"
+      ]
+    },
+    "DAI&website": {
+      "value": "https://makerdao.com/en/",
+      "proof": [
+        "0xf8a54f6f77ab41ed946c244aed635be0a9415c8cdfab0dddd0ce01e22804a8fe",
+        "0xabe984d7fc19239d22d2c8fdc5c471cd136361a56bfe3442f4f7359b9a3d12d5",
+        "0x0c54ed1cb403df8cf5e84ae4f15adcc7f07bf339bdafee93d6ba2123d98ff533"
+      ]
+    },
+    "DAI&github": {
+      "value": "https://github.com/makerdao",
+      "proof": [
+        "0x97cdcccca334c9bb79295bcf7d6808d9ed9d6c322e4e21822d1a8819f5da2178",
+        "0x75bacb48b56c86c913a5ebda676a37d192f7e028315d35036cb6f3cd65285186",
+        "0xb161ae2de085c10557cb240c91aa9b3b2f67ca6a7125765129c7d14c0d3c857c"
+      ]
+    },
+    "DAI&name": {
+      "value": "Dai",
+      "proof": [
+        "0xb0fb3c9972cd938c2f97849217dd5563ae49ac0b2e294d9073ce86537359bb17",
+        "0x2c553ab8b511576a918444520d388ed332e2b6a45623f7bfe0d9414e175d6f48",
+        "0x0c54ed1cb403df8cf5e84ae4f15adcc7f07bf339bdafee93d6ba2123d98ff533"
+      ]
+    }
+  }
+}

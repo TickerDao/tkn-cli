@@ -29,7 +29,7 @@ export PINATA_API_SECRET=<your pinata api secret>
 
 Please refer to `dataset1.json` and `dataset2.json` in the `data` folder for examples of the standard data structure. Commands which take a dataset file as an input will expect a json file with a dataset field and/or a tree field.
 
-Please refer to `.dai-proof1.json` in the `data/proofs` folder for an example file which the `validate` command can work with. `fetch` command can save a file with proofs in this format.
+Please refer to `dai-proofs.json` and `dai-website-proof.json` in the `data` folder for example files which the `validate` command can work with. `fetch` command saves files in this format.
 
 ### Commands
 
@@ -65,16 +65,16 @@ tkn download --ipfs <content hash> --file <path to download file>
 
 Downloads a file from IPFS using its content hash value from IPFS to the filepath specified. Does not overwrite and will fail if a file already exists at the specified path. Command uses the Cloudflare IPFS gateway to download the file which does not need any setup.
 
-#### Fetch [TODO]
+#### Fetch
 
 Fetch the values and proofs for all fields or a single field of a token symbol.
 
 ```bash
+# single field on a symbol
 tkn fetch --token DAI --field token_address --file ./data/dataset1.json
-tkn fetch --token DAI --field token_address --ipfs <ipfs content hash of dataset>
 
+# all fields on a symbol
 tkn fetch --token DAI --file ./data/dataset1.json
-tkn fetch --token DAI --ipfs <ipfs content hash of dataset>
 ```
 
 We can save the values and proofs to a file for later use.
@@ -82,6 +82,8 @@ We can save the values and proofs to a file for later use.
 ```bash
 tkn fetch --token DAI --field token_address --file ./data/dataset1.json --save ./data/proofs/dai-proof1.json
 ```
+
+Dataset file can be downloaded from IPFS using `download`.
 
 Proof file generated in this step can be uploaded to IPFS using `upload`.
 
