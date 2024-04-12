@@ -22,7 +22,7 @@ Set them as environment variables using the below commands.
 
 ```bash
 export PINATA_API_KEY=<your pinata api key>
-export PINATA_API_SECRET=<your pinata api secret>
+export PINATA_SECRET_API_KEY=<your pinata api secret>
 ```
 
 ### Dataset
@@ -52,11 +52,11 @@ Upload uses Pinata to upload the given local file to IPFS.
 
 ```bash
 export PINATA_API_KEY="..."
-export PINATA_API_SECRET="..."
+export PINATA_SECRET_API_KEY="..."
 tkn upload --file ./data/dataset1.json
 ```
 
-Uploads the given file to IPFS. Command requires `PINATA_API_KEY` and `PINATA_API_SECRET` to be set as environment variables.
+Uploads the given file to IPFS. Command requires `PINATA_API_KEY` and `PINATA_SECRET_API_KEY` to be set as environment variables.
 
 #### Download
 

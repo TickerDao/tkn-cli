@@ -56,7 +56,7 @@ program
     `
   Examples:
     $ export PINATA_API_KEY="..."
-    $ export PINATA_API_SECRET="..."
+    $ export PINATA_SECRET_API_KEY="..."
     $ tkn upload -f ./data/dataset1.json`
   );
 
