@@ -1,12 +1,14 @@
 {
-  "root": "0x00912eb6bc80ceaf643e95ff1558f5dd6d93eeabf0913f5e65d181970ad57bf5",
+  "root": "0x2c717288695dbfd5a6dfc2a956e04dfe0a0cd8b629e455275a1d0f38ced4f0e0",
   "fields": {
     "DAI&website": {
-      "value": "https://makerdao.com/en/",
+      "value": "https://makerdao.com",
       "proof": [
-        "0xf8a54f6f77ab41ed946c244aed635be0a9415c8cdfab0dddd0ce01e22804a8fe",
-        "0xabe984d7fc19239d22d2c8fdc5c471cd136361a56bfe3442f4f7359b9a3d12d5",
-        "0x0c54ed1cb403df8cf5e84ae4f15adcc7f07bf339bdafee93d6ba2123d98ff533"
+        "0xd60bff6f769594eb20ee73b5bb1ccbc3d726852fd8145ede9b2c4c27ca278048",
+        "0xfa6e0778ab57d3be6ca39e06b4609ae165f0d3b5543e73e2c5905afca927c9fc",
+        "0xe685313d1d63df98752ee5204703d074c93727fa8a1728eb39d837e375030f10",
+        "0x888cc954592adad003f523f0bbd46bcdf6959e95fa92c20a16fc17ed438973c9",
+        "0x1f156a1c2dd0a5d00fb98e1d6e82710cec27814d2401a73181766afd4dcbce13"
       ]
     }
   }
