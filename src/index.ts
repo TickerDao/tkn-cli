@@ -9,6 +9,7 @@ import { runGenerate } from "./generate/merkle";
 import { runUploadIPFS } from "./upload/ipfs";
 import { runDownloadIPFS } from "./download/ipfs";
 import { runFetch } from "./fetch/fetch";
+import { runValidate } from "./validate/validate";
 
 const program = new Command();
 
@@ -101,6 +102,25 @@ program
       $ tkn fetch --token DAI --field token_address --file ./data/dataset1.json
       $ tkn fetch --token DAI --file ./data/dataset1.json
       $ tkn fetch --token DAI --field token_address --file ./data/dataset1.json --save ./data/proofs/dai-proof1.json`
+  );
+
+// validate: validate the given value(s) and proof(s) of fields against a merkle root value
+program
+  .command("validate")
+  .description(
+    "validate the values and proofs for fields against a given merkle root value"
+  )
+  .option("-f, --file <path>", "path of the proof file", "")
+  .option("-r, --root <value>", "merkle root value", "")
+  .action((options) => {
+    runValidate(options.file, options.root);
+  })
+  .addHelpText(
+    "after",
+    `
+    Examples:
+      $ tkn validate --file ./data/dai-proofs.json --root 0x00912eb6bc80ceaf643e95ff1558f5dd6d93eeabf0913f5e65d181970ad57bf5
+      $ tkn validate --file ./data/dai-website-proof.json --root 0x00912eb6bc80ceaf643e95ff1558f5dd6d93eeabf0913f5e65d181970ad57bf5`
   );
 
 program.parse(process.argv);

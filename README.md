@@ -92,7 +92,8 @@ Proof file generated in this step can be uploaded to IPFS using `upload`.
 Validate the given value(s) and proof(s) of fields against a merkle root value.
 
 ```bash
-tkn validate --file ./data/proofs/dai-proof1.json --root 0x00912eb6bc80ceaf643e95ff1558f5dd6d93eeabf0913f5e65d181970ad57bf5
+tkn validate --file ./data/dai-proofs.json --root 0x00912eb6bc80ceaf643e95ff1558f5dd6d93eeabf0913f5e65d181970ad57bf5
+tkn validate --file ./data/dai-website-proof.json --root 0x00912eb6bc80ceaf643e95ff1558f5dd6d93eeabf0913f5e65d181970ad57bf5
 ```
 
 Proof files present on IPFS can be downloaded locally using `download`.
