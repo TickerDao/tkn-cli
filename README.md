@@ -87,7 +87,7 @@ Dataset file can be downloaded from IPFS using `download`.
 
 Proof file generated in this step can be uploaded to IPFS using `upload`.
 
-#### Validate [TODO]
+#### Validate
 
 Validate the given value(s) and proof(s) of fields against a merkle root value.
 
